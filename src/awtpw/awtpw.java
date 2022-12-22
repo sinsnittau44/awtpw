@@ -79,7 +79,7 @@ public class awtpw {
 		System.out.println(encryptedContent);
 		
 		// 写入加密后的文件
-		// writeFile("encrypted.txt", encryptedContent);
+		writeFile("encrypted.txt", encryptedContent);
 	}
 
 	private static void decryptFile(String fileName, byte key) {
@@ -92,7 +92,7 @@ public class awtpw {
 		System.out.println(decryptedContent);
 
 		// 写入解密后的文件
-		// writeFile("decrypted.txt", decryptedContent);
+		writeFile("decrypted.txt", decryptedContent);
 	}
 
 	private static byte[] readFile(String fileName) {
